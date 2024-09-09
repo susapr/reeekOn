@@ -87,9 +87,12 @@ output/
 
 ## Example Output
 
+```
 susapr> cat ips.txt
 http://scanme.nmap.org
+```
 
+```
 susapr> reeekOn -i ips.txt -o output
 
 [*] Scanning 45.33.32.156...
@@ -97,6 +100,7 @@ susapr> reeekOn -i ips.txt -o output
 [*] Found http? on port 80/tcp (version: Unknown)
 [*] Found nping-echo on port 9929/tcp (version: Nping echo)
 [*] Found tcpwrapped on port 31337/tcp (version: Unknown)
+```
 
 ## Example Workflow
 
