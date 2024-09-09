@@ -74,7 +74,7 @@ This will install `nmap`, `metasploit-framework`, and `exploitdb`, and create a 
 ## Example Directory Structure
 
 When `reeekOn` runs, it generates the following folder structure for each target IP:
-
+```
 output/
   └── 192.168.1.100/
     ├── 80/ 
@@ -83,6 +83,7 @@ output/
     └── 22/ 
       ├── 22.txt # Details about port 22 (service, version) 
       └── vulnerabilities.txt # Vulnerabilities for port 22 service
+```
 
 ## Example Output
 
